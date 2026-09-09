@@ -12,10 +12,14 @@ import {
   X 
 } from 'lucide-react';
 
-// --- CUSTOM SVG LOGO COMPONENT ---
+// --- CUSTOM SVG LOGO COMPONENT (RESPONSIVE) ---
 const Logo = () => (
-  <div className="flex items-center gap-2">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 120" className="h-8 w-auto text-white">
+  <div className="flex items-center">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 700 120" 
+      className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto text-white max-w-[180px] sm:max-w-[220px] md:max-w-[260px]"
+    >
       <defs>
         <style>
           {`
